@@ -22,3 +22,8 @@ jobs:
         run: |
           echo $GITHUB_SHA
           echo $GITHUB_REPOSITORY
+
+      - name: 아무한테 노출되면 안되는값,Github Actions Secret 변수 사용
+        run: |
+          echo ${{secrets.MY_NAME}}
+          echo ${{secrets.MY_HOBBY}}
