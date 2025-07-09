@@ -12,3 +12,8 @@ jobs:
     steps:
       - name: Hello wolrd 찍기
         run: echo "Hello world"
+
+      - name: 여러 명렁어 문장 작성하기
+        run: |
+          echo: "Good"
+          echo: "morning"
